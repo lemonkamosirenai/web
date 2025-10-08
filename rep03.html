@@ -40,6 +40,12 @@
         <canvas id="myCanvas" width="300" height="150"></canvas>
         <canvas id="myCanvas" width="300" height="150"></canvas>
         <canvas id="myCanvas" width="300" height="150"></canvas>
+        const canvas = document.getElementById('myCanvas');
+  　　　　const ctx = canvas.getContext('2d'); // 2Dグラフィック用のコンテキストを取得
+
+        ctx.fillStyle = 'red'; // 塗りつぶしの色を設定
+        ctx.fillRect(10, 10, 100, 50); // x=10, y=10から幅100, 高さ50の矩形を描画
+
 
 
 
